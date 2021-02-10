@@ -1,0 +1,35 @@
+body{
+	text-align:left;
+	margin-left: 400px;
+	margin-right: 200px;
+}
+form{
+	background-color:#B695DA;
+	padding-bottom:50px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:50px;
+	font-family: Rockwell Extra Bold;
+	color: 	#FFFFFF; 
+}
+#name{
+	width:100%;
+	
+}
+#email{
+	width:100%;
+}
+#number{
+	width:100%;
+}
+#dropdown{
+	width:100%;
+}
+#comments{
+	width:100%;
+}
+#submit{
+	width:100%;
+	background-color:#37AF65;
+}
+

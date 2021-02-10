@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Survey form</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<h1 id="title">10 Minute School Survey Form</h1>
+	<p id="description">Thank you for taking the time to give us your valuabel opinion</p>
+	<form id="survey-form">
+		<label for="name" id="name-label">Name:</label><br>
+		<input id="name" type="text" name="name" placeholder="Ayman Sadiq" required></input>
+		<br> <br>
+		<label for="email" id="email-label">Email:</label><br>
+		<input id="email" type="email" name="email" placeholder="10minuteschool.com" required></input>
+		<br> <br>
+		<label for="number" id="number-label">Age(optional):</label><br>
+		<input id="number" type="number" name="age" placeholder="18" min="5" max="100"></input>
+		<br> <br>
+		<label for="dropdown" id="role">Which option best describes your current role:</label><br>
+
+			<select name="current role" id="dropdown">
+				<option value="Student">Student</option>
+				<option value="Full time job">Full time job</option>
+				<option value="Part time job">Part time job</option>
+				<option value="Not interested to say">Not interested to say</option>
+			</select>
+			<br><br>
+		<label for="radio">Would you recommend 10 Minute School to a friend? </label><br>
+		<input id="definitely" type="radio" name="recommend" value="definitely"></input>
+		<label for="definitely">Definitely</label><br>
+		<input id="may_be" type="radio" name="recommend" value="may_be"></input>
+		<label for="may_be">May be</label><br>
+		<input id="not_sure" type="radio" name="recommend" value="not_sure"></input>
+		<label for="not_sure">Not sure</label><br>
+		<label for="subject">What is your favourite subject?</label><br>
+		<input type="checkbox" id="math" name="subject1" value="math">
+		<label for="subject">Math</label><br>
+		<input type="checkbox" id="physics" name="subject2" value="physics">
+		<label for="subject2">Physics</label><br>
+		<input type="checkbox" id="chemistry" name="subject3" value="chemistry">
+		<label for="subject3">Chemistry</label>
+		<br>
+		<br>
+		<label for="textarea">Any Comments?</label><br>
+		<textarea name="comments" id="comments" cols="50" rows="5"></textarea>
+		<br><br>
+		<input id="submit" type="submit" value="submit" />
+	</form>
+</body>
+</html>
